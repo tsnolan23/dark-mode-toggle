@@ -7,6 +7,7 @@ import lightTheme from "../themes/light";
 import Container from "./Container";
 import Card from "./Card";
 import Button from "./Button";
+import GitHubLink from "./GitHubLink";
 
 const App = () => {
   const stored = localStorage.getItem("isDarkMode");
@@ -27,6 +28,7 @@ const App = () => {
             Toggle Dark Mode
           </Button>
         </Card>
+        <GitHubLink />
       </Container>
     </ThemeProvider>
   );
