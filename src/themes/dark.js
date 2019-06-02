@@ -1,3 +1,5 @@
+// src/themes/dark.js
+
 export default {
   colors: {
     background: "#2E3440",

@@ -1,3 +1,5 @@
+// src/themes/light.js
+
 export default {
   colors: {
     background: "#ECEFF4",
